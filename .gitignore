@@ -1,0 +1,25 @@
+/venv
+class_location.h5
+/AI_Detection
+/Defect_Detection
+.gitignore
+Esp32_Firmware.zip
+CAD models/.DS_Store
+Esp32_Firmware/.DS_Store
+.DS_Store
+
+data/*
+!data/README.md
+inference_outputs
+test.sh
+*__pycache__/
+
+# Custom weights folder (mainly for testing).
+weights/*
+!weights/readme.txt
+
+# Weights and Biases
+wandb/*
+
+# IPython checkpoints
+.ipynb_checkpoints
